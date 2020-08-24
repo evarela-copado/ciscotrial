@@ -4,5 +4,9 @@
         <members>Account.Test_Field_2__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
     <version>49.0</version>
 </Package>
