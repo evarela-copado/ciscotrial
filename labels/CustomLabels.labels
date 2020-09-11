@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Example_Test_123</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Example Test 123</shortDescription>
+        <value>Find me this is a test for pushing to production. Updating this</value>
+    </labels>
+</CustomLabels>
