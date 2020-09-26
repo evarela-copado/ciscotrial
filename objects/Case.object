@@ -408,4 +408,10 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Cases_must_be_from_phone</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(Origin, &apos;Phone&apos;)</errorConditionFormula>
+        <errorMessage>Cases must have origin be &apos;Phone&apos;</errorMessage>
+    </validationRules>
 </CustomObject>
